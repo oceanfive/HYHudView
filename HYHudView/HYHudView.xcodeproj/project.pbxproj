@@ -15,6 +15,8 @@
 		8E000D701FB035A20096EA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E000D6E1FB035A20096EA46 /* LaunchScreen.storyboard */; };
 		8E000D731FB035A20096EA46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E000D721FB035A20096EA46 /* main.m */; };
 		8E000D7C1FB035BF0096EA46 /* UIView+HYHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E000D7B1FB035BF0096EA46 /* UIView+HYHud.m */; };
+		8E099A6D1FC26A0700F87C6B /* HYHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E099A6C1FC26A0700F87C6B /* HYHud.m */; };
+		8E099A701FC26F4B00F87C6B /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E099A6F1FC26F4B00F87C6B /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,10 @@
 		8E000D721FB035A20096EA46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E000D7A1FB035BF0096EA46 /* UIView+HYHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HYHud.h"; sourceTree = "<group>"; };
 		8E000D7B1FB035BF0096EA46 /* UIView+HYHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HYHud.m"; sourceTree = "<group>"; };
+		8E099A6B1FC26A0700F87C6B /* HYHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHud.h; sourceTree = "<group>"; };
+		8E099A6C1FC26A0700F87C6B /* HYHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHud.m; sourceTree = "<group>"; };
+		8E099A6E1FC26F4B00F87C6B /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		8E099A6F1FC26F4B00F87C6B /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		AAD5591A84EBE26B716D8D86 /* Pods-HYHudView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYHudView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYHudView/Pods-HYHudView.release.xcconfig"; sourceTree = "<group>"; };
 		E6C567EF24DCF5D1BEC9D62D /* Pods-HYHudView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYHudView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYHudView/Pods-HYHudView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +88,8 @@
 				8E000D641FB035A20096EA46 /* AppDelegate.m */,
 				8E000D661FB035A20096EA46 /* ViewController.h */,
 				8E000D671FB035A20096EA46 /* ViewController.m */,
+				8E099A6E1FC26F4B00F87C6B /* OneViewController.h */,
+				8E099A6F1FC26F4B00F87C6B /* OneViewController.m */,
 				8E000D691FB035A20096EA46 /* Main.storyboard */,
 				8E000D6C1FB035A20096EA46 /* Assets.xcassets */,
 				8E000D6E1FB035A20096EA46 /* LaunchScreen.storyboard */,
@@ -96,6 +104,8 @@
 			children = (
 				8E000D7A1FB035BF0096EA46 /* UIView+HYHud.h */,
 				8E000D7B1FB035BF0096EA46 /* UIView+HYHud.m */,
+				8E099A6B1FC26A0700F87C6B /* HYHud.h */,
+				8E099A6C1FC26A0700F87C6B /* HYHud.m */,
 			);
 			path = HudView;
 			sourceTree = "<group>";
@@ -230,8 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E099A6D1FC26A0700F87C6B /* HYHud.m in Sources */,
 				8E000D681FB035A20096EA46 /* ViewController.m in Sources */,
 				8E000D731FB035A20096EA46 /* main.m in Sources */,
+				8E099A701FC26F4B00F87C6B /* OneViewController.m in Sources */,
 				8E000D651FB035A20096EA46 /* AppDelegate.m in Sources */,
 				8E000D7C1FB035BF0096EA46 /* UIView+HYHud.m in Sources */,
 			);

@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  HYHudView
+//  UIKit-HYCategory
 //
-//  Created by ocean on 2017/11/6.
+//  Created by ocean on 2017/11/14.
 //  Copyright © 2017年 ocean. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,14 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    //自定义窗口的根控制器
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    ViewController *vc = [[ViewController alloc] init];
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
-    [self.window setRootViewController:navi];
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
     return YES;
 }
 

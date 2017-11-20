@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  OneViewController.h
 //  HYHudView
 //
-//  Created by ocean on 2017/11/6.
+//  Created by ocean on 2017/11/20.
 //  Copyright © 2017年 ocean. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface OneViewController : UIViewController
 
 @end
-
