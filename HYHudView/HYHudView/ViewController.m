@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "HYHud.h"
 #import "OneViewController.h"
+#import <MBProgressHUD.h>
 
 @interface ViewController ()
 
@@ -19,7 +20,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.mode = MBProgressHUDModeText;
+    hud.label.text = @"label";
+    hud.detailsLabel.text = @"detailsLabel";
+    hud.offset = CGPointZero;
+    hud.progress = 0.5;
+    hud.contentColor = [UIColor redColor];
+    
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
